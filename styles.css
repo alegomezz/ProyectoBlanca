@@ -62,3 +62,8 @@
   will-change: transform;
   z-index: 0;
 }
+
+.carousel-item {
+    height: 600px;
+}
+
