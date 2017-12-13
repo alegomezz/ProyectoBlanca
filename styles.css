@@ -39,7 +39,6 @@
     }
 }
 
-@import url("http://fonts.googleapis.com/css?family=Roboto:100");
 * {
   box-sizing: border-box;
 }
@@ -75,4 +74,8 @@
   justify-content: space-around;
   align-items: flex-end;
 
+}
+#loginblog{
+  color: #a51258;
+  font-weight: bold;
 }
