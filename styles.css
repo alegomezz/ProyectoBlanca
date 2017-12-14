@@ -62,11 +62,6 @@
   z-index: 0;
 }
 
-
-.carousel-item {
-    height: 600px;
-}
-
 #botonesEntrada{
   width: 100%;
   height: 600px;
@@ -74,8 +69,4 @@
   justify-content: space-around;
   align-items: flex-end;
 
-}
-#loginblog{
-  color: #a51258;
-  font-weight: bold;
 }
