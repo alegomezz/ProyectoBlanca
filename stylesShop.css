@@ -358,3 +358,11 @@ footer p {
 		 margin: 0 8px;
 	}
 }
+
+#p3_social_sidebar {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 500000;
+}
