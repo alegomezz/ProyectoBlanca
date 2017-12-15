@@ -78,9 +78,26 @@ h2 {
             
               }
 .headingphoto {
-    padding-bottom: 50px;
+    padding: 50px;
 }
 
 .index {
     z-index: 100;
 }
+
+h2 {
+    text-align: center;
+    margin-top: -150px;
+}
+
+.movebottom {
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+#brand {
+    height:100px;
+    width: 100px;
+}
+

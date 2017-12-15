@@ -221,3 +221,12 @@ section p {
   font-size: 16px;
   padding: 16px 32px;
 }
+
+.index {
+	z-index: 100;
+}
+
+#brand {
+    height:100px;
+    width: 100px;
+}

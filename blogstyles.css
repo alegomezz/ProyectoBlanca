@@ -35,6 +35,14 @@ stories {
  
 }
 
+.index {
+  z-index: 100;
+}
+
+#brand {
+  height:100px;
+  width: 100px;
+}
 
 /*| Navigation |*/
 
