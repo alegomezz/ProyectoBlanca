@@ -234,3 +234,12 @@ section p {
 .mezcalesboton{
   font: white;
 }
+
+.reposadosize {
+  width: 700px;
+  height: 900px;
+  background-image: url("IMG/reposado.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 200px;
+}
