@@ -1,5 +1,4 @@
 
-
 *, *:before, *:after{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -230,4 +229,17 @@ section p {
 #brand {
     height:100px;
     width: 100px;
+}
+
+.mezcalesboton{
+  font: white;
+}
+
+.btn {
+  background-color: #e3b602;
+  border-color: #e3b602;
+}
+
+.card-img-top{
+  margin:0;
 }
