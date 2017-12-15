@@ -1,6 +1,6 @@
 
 
-.carousel-item {
+/* .carousel-item {
     height: 600px;
 }
 
@@ -17,10 +17,14 @@
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
-
+ */
 /*| Navigation |*/
 
-#nav1{
+.carousel-item {
+  height: 600px;
+}
+
+/* #nav1{
   position: fixed;
   top: 0px;
   left: 0;
@@ -77,11 +81,12 @@
             position: absolute;
             left: 100%;
             top:0;
-          }
+          } */
 
-#carouselExampleControls{
+/* #carouselExampleControls{
   position: fixed;
   top: 160px;
   left: 0;
   width: 100%;
 }
+ */
