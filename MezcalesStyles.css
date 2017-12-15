@@ -128,10 +128,17 @@ section {
 	justify-content:center;
 }
 
+.espacioprincipal {
+	width:250px;
+	height:3px;
+  background-color:#e3b602;
+	border:0;
+  margin-bottom:50px;
+}
+
 hr {
 	width:250px;
 	height:3px;
-	background-color:#e3b602;
 	border:0;
 	margin:50px;
 }
@@ -146,8 +153,8 @@ section h3.title {
 section p {
 	max-width:775px;
 	line-height:2;
-	padding: 0 20px;
-	margin-bottom:30px;
+	margin-top:30px;
+  margin-bottom: 0px;
 	text-align:center;
 }
 
@@ -231,15 +238,15 @@ section p {
     width: 100px;
 }
 
-.mezcalesboton{
-  font: white;
-}
 
 .btn {
   background-color: #e3b602;
   border-color: #e3b602;
 }
 
-.card-img-top{
-  margin:0;
+#cardsMezcal{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+
 }
