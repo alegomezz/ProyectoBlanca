@@ -121,17 +121,19 @@ section {
 
 
 
-.grid {
-	width:100%;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
+
+
+.espacioprincipal {
+	width:250px;
+	height:3px;
+  background-color:#e3b602;
+	border:0;
+  margin-bottom:50px;
 }
 
 hr {
 	width:250px;
 	height:3px;
-	background-color:#e3b602;
 	border:0;
 	margin:50px;
 }
@@ -146,26 +148,16 @@ section h3.title {
 section p {
 	max-width:775px;
 	line-height:2;
-	padding: 0 20px;
-	margin-bottom:30px;
+	margin-top:30px;
+  margin-bottom: 0px;
 	text-align:center;
 }
 
-.destinations .grid img {
-	height:350px;
-	padding:10px;
-	background-clip:content-box;
-	background-size:cover;
-	background-position:center;
+
+
+
 }
 
-.destinations .grid img.small {
-	flex-basis:30%;
-}
-
-.destinations .grid img.large {
-	flex-basis:70%;
-}
 
 @media (max-width:1100px) {
 	.destinations .grid img.small,
@@ -181,81 +173,24 @@ section p {
 	}
 }
 
-.capa {
-    position: relative;
-    width: 100%;
-}
-
-.imgshop {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 25%;
-  left: 65%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.capa:hover .imgshop {
-  opacity: 0.3;
-
-}
-
-.capa:hover .middle {
-  opacity: 1;
-
-}
-
-.text {
-  color: white;
-  background-color: black;
-  font-size: 16px;
-  padding: 16px 32px;
-}
-
-.index {
-	z-index: 100;
-}
 
 #brand {
     height:100px;
     width: 100px;
 }
 
-.mezcalesboton{
-  font: white;
-}
 
-.reposadosize {
-  width: 700px;
-  height: 900px;
-  background-image: url("IMG/reposado.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-
-}
-
-.btn-primary {
-    color: #be1b33;
-    background-color: #f5b32c;
-    border-color: #f5b32c;
-}
 .btn {
-    display: inline-block;
-    padding: 19px 53px;
-    margin-bottom: 0;
-    font-size: 25px;
-    font-weight: 403;
-    line-height: 1.42857143;
-    top: 700px;
+  background-color: #e3b602;
+  border-color: #e3b602;
+}
 
+#cardsMezcal{
+  height: 100%;
+
+}
+
+.card{
+  display: flex;
+  left: 0px;
 }
